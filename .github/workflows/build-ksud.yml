@@ -15,8 +15,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - target: aarch64-linux-android
-          - target: x86_64-linux-android
           - target: arm-linux-androideabi
     name: Build KSUD
     runs-on: ubuntu-latest
