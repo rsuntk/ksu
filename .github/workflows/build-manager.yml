@@ -51,7 +51,7 @@ jobs:
           echo KEYSTORE_FILE='../key.jks' >> sign.properties
           echo ${{ secrets.KEYSTORE }} | base64 --decode > key.jks
         fi
-    - name: Download arm ksud
+    - name: Download arm ksud core
       uses: actions/download-artifact@v3
       with:
         name: ksud-arm-linux-androideabi
