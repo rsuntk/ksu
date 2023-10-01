@@ -54,7 +54,7 @@ jobs:
     - name: Download arm ksud
       uses: actions/download-artifact@v3
       with:
-        name: ksud-arm-linux-android
+        name: ksud-arm-linux-androideabi
         path: .
  
     - name: Copy ksud to app jniLibs
