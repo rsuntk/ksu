@@ -1,5 +1,6 @@
 name: Build SU
 on:
+  workflow_call:
   push:
     branches: [ "main" ]
     paths: 
